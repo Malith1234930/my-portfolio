@@ -52,14 +52,14 @@ function updateGallery() {
 let slideInterval = setInterval(() => {
     galleryIndex = (galleryIndex + 1) % galleryCards.length;
     updateGallery();
-}, 3000);
+}, 1500);
 
 function resetInterval() {
     clearInterval(slideInterval);
     slideInterval = setInterval(() => {
         galleryIndex = (galleryIndex + 1) % galleryCards.length;
         updateGallery();
-    }, 3000);
+    }, 1500);
 }
 
 
