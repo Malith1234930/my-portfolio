@@ -903,4 +903,18 @@ body {
     margin-bottom: 10px;
 }
 
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+
+    background: rgba(0,255,136,0.08);
+    padding: 40px;
+    border-radius: 20px;
+
+    border: 1px solid #00ff88;
+    box-shadow: 0 0 20px #00ff88;
+
+    backdrop-filter: blur(10px);
+}
+
 
