@@ -916,5 +916,36 @@ body {
     margin-top: 15px;
 }
 
+ @media (max-width: 7868px) {
+
+
+    .navbar {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    navbar ul il{
+        margin: 10px;
+    }
+
+    /* home section*/
+
+    .home{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .home-info h1{
+        font-size:28px;
+    }
+ }
+
 
 
