@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="web, html, css, javascript, js, java, python">
+    <meta name="description" content="World best web development tutorials">
+    <meta name="author" content="IJSE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Positioning</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo"></a>
+        <ul>
+            <li class="active"><a href="#">Home</a> </li>
+            <li><a href="#aboutSection">About</a> </li>
+            <li><a href="#skillSection">Skills</a> </li>
+            <li><a href="#educationSection">Education</a> </li>
+            <li><a href="#projectSection">Projects</a> </li>
+            <li><a href="#gallerySection">Gallery</a> </li>
+            <li><a href="#contactSection">Contact</a> </li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+         <div class="bar" style="--i:6;"></div>
+         <div class="bar" style="--i:5;"></div>
+         <div class="bar" style="--i:4;"></div>
+         <div class="bar" style="--i:3;"></div>
+         <div class="bar" style="--i:2;"></div>
+         <div class="bar" style="--i:1;"></div>
+    </div>
+
+
+    <section class="home">
+        <div class="home-info">
+            <h1>Hey,</h1>
+
+            <h1>Malith Bhagya</h1>
+            <h2>I'm
+                <span style="--i:3;" data-text="Frontend
+                 Developer">Frontend Developer</span>
+                <span style="--i:2" data-text="UI/UX
+                 Designer">UI/UX Designer</span>
+                <span style="--i:1" data-text="Software
+                 Engineer">Software Engineer</span>
+            </h2>
+            <p>I am a software engineer who enjoys
+                coding and learning new technologies.
+                I like solving problems and <br>building useful applications.
+                I am hardworking, motivated, and always willing to improve my skills.</p>
+
+            <div class="sci">
+
+                <a href="#"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+            <br>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#projectSection" class="btn"> My Projects</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="assist/WhatsApp Image 2026-03-20 at 17.50.38.jpeg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="aboutSection">
+        <div class="about-container">
+
+            <div class="about-img">
+                <img src="assist/WhatsApp Image 2026-03-20 at 17.50.38.jpeg" alt="My Image">
+
+            </div>
+
+            <div class="about-content">
+                <h1>About <span>Me</span></h1>
+                <h3>Software Engineer</h3>
+                <p>
+                    I am a passionate Software Engineer with a strong interest in
+                    web development, UI/UX design, and modern technologies.
+                    I enjoy creating clean, responsive, and user-friendly websites.
+                </p>
+
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skillSection">
+        <h1 class="title">My <span>Skills</span></h1>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <span style="width: 90%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <span style="width: 75%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <h3>Java</h3>
+                <div class="progress">
+                    <span style="width: 80%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <h3>UI/UX Design</h3>
+                <div class="progress">
+                    <span style="width: 70%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="education" id="educationSection">
+        <h1 class="title">My <span>Education</span></h1>
+
+        <div class="timeline">
+
+
+            <div class="edu-box left">
+                <div class="content">
+
+                    <div class="school-logo">
+                        <img  src="assist/images (1).jpg" height="221" width="228" alt="School Logo">
+                    </div>
+
+                    <h2>Primary School</h2>
+                    <h3>Kengalla Primary School</h3>
+                    <p>Grade 1 - Grade 5</p>
+                </div>
+            </div>
+
+
+            <div class="edu-box right">
+                <div class="content">
+
+                    <div class="school-logo">
+                        <img  src="assist/images (2).jpg" height="230" width="219" alt="School Logo">
+                    </div>
+
+                    <h2>Secondary School</h2>
+                    <h3>Walala A/Rathnayaka Central College</h3>
+                    <p>O/L & A/L Studies</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projectSection">
+        <h1 class="title">My <span>Projects</span></h1>
+
+        <div class="projects-container">
+
+
+            <div class="project-card">
+                <img src="assist/Screenshot 2026-04-30 110342.png" height="888" width="1882"  alt="">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern responsive personal portfolio design.</p>
+                    <a href="https://github.com/settings/repositories" class="btn">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="assist/Screenshot 2026-04-30 151539.png" height="1020" width="1920"  alt="">
+                <div class="project-info">
+                    <h3>Java System</h3>
+                    <p>Order Management System.</p>
+                    <a href="https://github.com/Malith1234930" class="btn">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="assist/Screenshot 2026-01-05 215113.png" height="984" width="1901" alt="">
+                <div class="project-info">
+                    <h3>UI/UX Design</h3>
+                    <p>POS System for Hardware.</p>
+                    <a href="https://github.com/Malith1234930/DK-Hardware-Project" class="btn">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="gallery" id="gallerySection">
+        <h1 class="title">My <span>Gallery</span></h1>
+        <div class="gallery-container"></div>
+
+        <div class="gallery-wrapper">
+            <div class="gallery-slider">
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.28.24.jpeg" height="1040" width="780" alt="Gallery Image 1">
+
+                </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.28.34.jpeg" height="1280" width="960" alt="Gallery Image 1">
+
+
+                </div>
+
+                <div class="gallery-card">
+                    <img  src="assist/WhatsApp Image 2026-04-29 at 14.28.56.jpeg" height="1600" width="1200" alt="Gallery Image 1">
+
+                </div>
+
+                <div class="gallery-card">
+                    <<img src="assist/WhatsApp Image 2026-04-29 at 14.33.39.jpeg" height="1600" width="1200" alt="Gallery Image 1"/>
+
+                </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.31.04.jpeg" height="1600" width="1200"  alt="Gallery Image 2">
+
+                    </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.31.26.jpeg" height="1600" width="1200" alt="Gallery Image 3" id="my1">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-03-21 at 00.24.10.jpeg" height="1280" width="960" alt="Gallery Image 4" id="my2">
+
+                </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.31.41.jpeg" height="971" width="720" alt="Gallery Image 3" id="my3">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="assist/WhatsApp Image 2026-04-29 at 14.34.29.jpeg" height="1600" width="1200" alt="Gallery Image 3" id="my4">
+                </div>
+
+
+            </div> </div>
+        <div class="dots-container" id="galleryDots"></div>
+    </section>
+
+
+    <script src="scrpit.js"></script>
+
+    <section class="contact" id="contactSection">
+
+
+        <div class="contact-info">
+
+            <div class="info-box">
+                <i class="ri-map-pin-line"></i>
+                <h3>Address</h3>
+                <p>Kandy, Sri Lanka</p>
+            </div>
+
+            <div class="info-box">
+                <i class="ri-phone-line"></i>
+                <h3>Phone</h3>
+                <p>+94 76 880 9402</p>
+            </div>
+
+            <div class="info-box">
+                <i class="ri-mail-line"></i>
+                <h3>Email</h3>
+                <p>malithbhagya993@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+                <i class="ri-github-fill"></i>
+                <h3>GitHub</h3>
+                <p>github.com/malith</p>
+            </div>
+
+        </div>
+
+
+        <div class="contact-form">
+            <h1>Contact <span>Me</span></h1>
+
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+
+            <button class="btn">Send Message</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
