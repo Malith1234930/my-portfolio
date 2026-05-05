@@ -953,3 +953,54 @@ body {
     }
 }
 
+/* ===== MOBILE ===== */
+@media (max-width: 400px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+
+    .navbar ul.active {
+        max-height: 100px;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+
+    .home-info h1 {
+        font-size: 16px;
+    }
+
+    .home-info h2 {
+        font-size: 23px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .gallery-card {
+        width: 90%;
+        height: 120px;
+    }
+}
