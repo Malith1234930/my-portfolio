@@ -915,3 +915,41 @@ body {
 .contact-form .btn {
     margin-top: 15px;
 }
+
+/* ===== MENU ICON ===== */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #00ff88;
+    cursor: pointer;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 700px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .home-img .img-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .about-content h1 {
+        font-size: 50px;
+    }
+
+    .about-content h3 {
+        font-size: 30px;
+    }
+}
+
