@@ -11,7 +11,7 @@ html {
 
 
 a{
-    color: #9D00FF;
+    color: #00ff88;
     text-decoration: none;
 }
 
@@ -28,9 +28,9 @@ a{
     background: rgba(0, 255, 136, 0.08);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 4px solid rgba(157,0,255);
+    border: 4px solid rgba(0, 255, 136, 0.3);
     border-radius: 50px;
-    box-shadow: 0 0 15px rgba(157,0,255);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
     z-index: 100;
     visibility: hidden;
     opacity: 0;
@@ -76,8 +76,8 @@ a{
     bottom: -5px;
     width: 0;
     height: 2px;
-    background: #9D00FF;
-    box-shadow: 0 0 10px #9D00FF;
+    background: #00ff88;
+    box-shadow: 0 0 10px #00ff88;
     transition: width 0.3s ease;
 }
 
@@ -87,7 +87,7 @@ a{
 
 .navbar ul li:hover a,
 .navbar ul li a.active {
-    color: #9D00FF;
+    color: #00ff88;
 }
 
 .navbar ul li a.active::after {
@@ -120,7 +120,7 @@ a{
     position: relative;
     display: inline-block;
     color: transparent;
-    -webkit-text-stroke: .7px #9D00FF;
+    -webkit-text-stroke: .7px #00ff88;
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
@@ -136,8 +136,8 @@ a{
     content: attr(data-text);
     position: absolute;
     width: 0%;
-    border-right: 2px solid #9D00FF;
-    color: #9D00FF;
+    border-right: 2px solid #00ff88;
+    color: #00ff88;
     white-space: nowrap;
     overflow: hidden;
     animation: fill-text 4s linear infinite;
@@ -172,22 +172,22 @@ a{
     padding: 14px 40px;
     border-radius: 20px;
 
-    color: #9D00FF;
+    color: #00ff88;
     font-weight: 600;
     letter-spacing: 1px;
 
 
-    background: rgba(157,0,255);
+    background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
 
-    border: 1px solid rgba(157,0,255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 
 
     box-shadow:
-        0 8px 20px rgba(157,0,255),
-        inset 0 2px 5px rgba(157,0,255),
-        inset 0 -3px 8px rgba(157,0,255);
+        0 8px 20px rgba(0, 0, 0, 0.4),
+        inset 0 2px 5px rgba(255, 255, 255, 0.2),
+        inset 0 -3px 8px rgba(0, 0, 0, 0.3);
 
     transform-style: preserve-3d;
     transition: all 0.3s ease;
@@ -217,10 +217,10 @@ a{
     transform: translateY(-6px) scale(1.05);
 
     box-shadow:
-        0 15px 30px rgba(157,0,255),
-        0 0 20px rgba(157,0,255),
-        inset 0 2px 5px rgba(157,0,255),
-        inset 0 -3px 10px rgba(157,0,255);
+        0 15px 30px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(0,255,150,0.4),
+        inset 0 2px 5px rgba(255, 255, 255, 0.3),
+        inset 0 -3px 10px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -228,8 +228,8 @@ a{
     transform: translateY(2px) scale(0.97);
 
     box-shadow:
-        0 5px 10px rgba(157,0,255),
-        inset 0 3px 8px rgba(157,0,255);
+        0 5px 10px rgba(0,0,0,0.4),
+        inset 0 3px 8px rgba(0,0,0,0.5);
 }
 
 .sci a {
@@ -239,18 +239,18 @@ a{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #9D00FF;
+    border: 2px solid #00ff88;
     border-radius: 50%;
     font-size: 20px;
-    color: #9D00FF;
+    color: #00ff88;
     text-decoration: none:
     margin: 30px 15px 30px 0;
 }
 
 .sci a:hover {
-    background: #9D00FF;
+    background: #00ff88;
     color: black;
-    box-shadow: 0 0 20px #9D00FF;
+    box-shadow: 0 0 20px #00ff88;
 }
 
 .home-img .img-box {
@@ -276,7 +276,7 @@ a{
         transparent,
         transparent,
         transparent,
-        #9D00FF
+        #00ff88
     );
 
     animation: rotate-border 8s linear infinite;
@@ -300,7 +300,7 @@ a{
     background: rgba(0, 0, 0, 0.6);
 
     border-radius: 50%;
-    border: 2px solid rgba(157,0,255);
+    border: 2px solid rgba(0,255,136,0.3);
 
     display: flex;
     justify-content: center;
