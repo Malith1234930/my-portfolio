@@ -172,7 +172,7 @@ a{
     padding: 14px 40px;
     border-radius: 20px;
 
-    color: #00ff88;
+    color: #9D00FF;
     font-weight: 600;
     letter-spacing: 1px;
 
@@ -239,18 +239,18 @@ a{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00ff88;
+    border: 2px solid #9D00FF;
     border-radius: 50%;
     font-size: 20px;
-    color: #00ff88;
+    color: #9D00FF;
     text-decoration: none:
     margin: 30px 15px 30px 0;
 }
 
 .sci a:hover {
-    background: #00ff88;
+    background: #9D00FF;
     color: black;
-    box-shadow: 0 0 20px #00ff88;
+    box-shadow: 0 0 20px #9D00FF;
 }
 
 .home-img .img-box {
