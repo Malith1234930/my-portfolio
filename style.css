@@ -850,7 +850,7 @@ body {
     background: rgba(0,255,136,0.08);
     border: 1px solid #00ff88;
     border-radius: 15px;
-    padding: 25px;
+    padding: 30px;
 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px #00ff88;
