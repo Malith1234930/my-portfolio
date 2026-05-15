@@ -529,7 +529,7 @@ body {
 
 .content {
     background: rgba(0,255,136,0.08);
-    padding: 30px;
+    padding: 40px;
     border-radius: 15px;
     border: 1px solid #00ff88;
     backdrop-filter: blur(10px);
