@@ -11,7 +11,7 @@ html {
 
 
 a{
-    color: #00ff88;
+    color: #07407d;
     text-decoration: none;
 }
 
@@ -76,8 +76,8 @@ a{
     bottom: -5px;
     width: 0;
     height: 2px;
-    background: #00ff88;
-    box-shadow: 0 0 10px #00ff88;
+    background: #07407d
+    box-shadow: 0 0 10px #07407d;
     transition: width 0.3s ease;
 }
 
@@ -87,7 +87,7 @@ a{
 
 .navbar ul li:hover a,
 .navbar ul li a.active {
-    color: #00ff88;
+    color: #07407d;
 }
 
 .navbar ul li a.active::after {
