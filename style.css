@@ -269,8 +269,8 @@ a{
 .home-img .img-box::after {
     content: '';
     position: absolute;
-    width: 900px;
-    height: 900px;
+    width: 920px;
+    height: 920px;
 
     background: conic-gradient(
         transparent,
