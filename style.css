@@ -11,7 +11,7 @@ html {
 
 
 a{
-    color: #07407d;
+    color: #9D00FF;
     text-decoration: none;
 }
 
@@ -76,8 +76,8 @@ a{
     bottom: -5px;
     width: 0;
     height: 2px;
-    background: #07407d
-    box-shadow: 0 0 10px #07407d;
+    background: #9D00FF;
+    box-shadow: 0 0 10px #9D00FF;
     transition: width 0.3s ease;
 }
 
@@ -87,7 +87,7 @@ a{
 
 .navbar ul li:hover a,
 .navbar ul li a.active {
-    color: #07407d;
+    color: #9D00FF;
 }
 
 .navbar ul li a.active::after {
@@ -120,7 +120,7 @@ a{
     position: relative;
     display: inline-block;
     color: transparent;
-    -webkit-text-stroke: .7px #00ff88;
+    -webkit-text-stroke: .7px #9D00FF;
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
@@ -136,8 +136,8 @@ a{
     content: attr(data-text);
     position: absolute;
     width: 0%;
-    border-right: 2px solid #00ff88;
-    color: #00ff88;
+    border-right: 2px solid #9D00FF;
+    color: #9D00FF;
     white-space: nowrap;
     overflow: hidden;
     animation: fill-text 4s linear infinite;
