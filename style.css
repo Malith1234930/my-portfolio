@@ -156,7 +156,7 @@ a{
 }
 
 .home-info p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0 25px;
 }
 
@@ -169,8 +169,8 @@ a{
 .btn {
     position: relative;
     display: inline-block;
-    padding: 14px 40px;
-    border-radius: 20px;
+    padding: 14px 50px;
+    border-radius: 10px;
 
     color: #00ff88;
     font-weight: 600;
