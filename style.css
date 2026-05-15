@@ -361,7 +361,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 10%;
+    padding: 40px 10%;
 }
 
 .about-container {
@@ -384,7 +384,7 @@ body {
 }
 
 .about-content {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .about-content h1 {
